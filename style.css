@@ -1,0 +1,116 @@
+body {
+  background-color: seashell;
+}
+
+.title {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 50px;
+  font-family: sans-serif;
+  color: darkgreen;
+}
+
+.title a {
+  color: darkgreen;
+  text-decoration: none;
+}
+
+.tagline {
+  text-align: center;
+  font-size: 35px;
+  font-style: italic;
+  font-family: sans-serif;
+  color: brown;
+}
+
+.apply {
+  font-size: 30px;
+  margin-left: 50px;
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  color: darkgreen;
+  width: 50%;
+  background-color: whitesmoke;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+input[type="file"],
+input[type="submit"] {
+  padding: 12px;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input [type="submit"] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+.row input[type="submit"] {
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.container {
+  border-radius: 5px;
+  padding: 40px;
+  border: 1px solid black;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.col-75 input {
+  font-size: 20px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  background-color: rgb(32, 105, 32);
+}
+footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 20px;
+  font-family: sans-serif;
+  color: darkgreen;
+}
+
+img {
+  border: 2px solid black;
+}

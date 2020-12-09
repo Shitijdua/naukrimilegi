@@ -1,0 +1,71 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>NAUKRI_MILEGI</title>
+  </head>
+  <body>
+    <div class="title"><a href="#">naukrimilegi.com</a></div>
+    <div class="tagline">guaranteed jobs</div>
+
+    <div class="apply">APPLY NOW</div>
+    <img
+      src="contactus.jpg"
+      alt=""
+      width="100px"
+      style="margin-left: auto; margin-right: auto; display: block"
+    />
+    <br />
+    <div class="container">
+      <form action="POST" data-netlify="true">
+        <div class="row">
+          <div class="col-25">
+            <label for="Name">Name:</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="name" name="name" placeholder="Your Name" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="">What are you applying for?:</label>
+          </div>
+          <div class="col-75">
+            <input
+              type="text"
+              id="job"
+              name="job"
+              placeholder="What are you applying for?"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="">Why should we hire you?:</label>
+          </div>
+          <div class="col-75">
+            <input
+              type="text"
+              id="hire"
+              name="hire"
+              placeholder="Why should we hire you?"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="">Upload your CV:</label>
+          </div>
+          <div class="col-75">
+            <input type="file" name="fileToUpload" id="fileToUpload" />
+          </div>
+        </div>
+        <div class="row">
+          <input type="submit" value="submit" />
+        </div>
+      </form>
+    </div>
+    <footer>All rights reserved to naukrimilegi.com@2020</footer>
+  </body>
+</html>
