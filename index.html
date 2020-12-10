@@ -3,11 +3,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="favicon.JPG" type="images/gif" sizes="16x16" />
     <title>NAUKRI_MILEGI</title>
   </head>
   <body>
-    <div class="title"><a href="#">naukrimilegi.com</a></div>
-    <div class="tagline">guaranteed jobs</div>
+    <div class="title">
+      <a href="#"
+        ><!--naukrimilegi.com -->
+        <img
+          class="naukri"
+          src="naukrimilegi.jpg"
+          alt=""
+          width="250px"
+          height="100px"
+      /></a>
+    </div>
+    <!-- <div class="tagline">guaranteed jobs</div> -->
 
     <div class="apply">APPLY NOW</div>
     <img
@@ -21,7 +32,7 @@
       <form action="POST" data-netlify="true">
         <div class="row">
           <div class="col-25">
-            <label for="Name">Name:</label>
+            <label for="Name">Name of Applicant:</label>
           </div>
           <div class="col-75">
             <input type="text" id="name" name="name" placeholder="Your Name" />
@@ -29,14 +40,79 @@
         </div>
         <div class="row">
           <div class="col-25">
-            <label for="">What are you applying for?</label>
+            <label for="email">E-Mail Id:</label>
+          </div>
+          <div class="col-75">
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Your E-Mail"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="mobno">Mobile No:</label>
+          </div>
+          <div class="col-75">
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="Mobile Number"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="whatsappno">WhatsApp Number:</label>
+          </div>
+          <div class="col-75">
+            <input
+              type="tel"
+              id="whatsapp"
+              name="whatsapp"
+              placeholder="Your WhatsApp Number"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="qualification">Your Qualification:</label>
           </div>
           <div class="col-75">
             <input
               type="text"
-              id="job"
-              name="job"
-              placeholder="What are you applying for?"
+              id="qualification"
+              name="qualification"
+              placeholder="Your Qualifications"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="collegename">College Name:</label>
+          </div>
+          <div class="col-75">
+            <input
+              type="text"
+              id="college"
+              name="college"
+              placeholder="College Name"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="reference">Any Reference:</label>
+          </div>
+          <div class="col-75">
+            <input
+              type="text"
+              id="reference"
+              name="reference"
+              placeholder="Any References"
             />
           </div>
         </div>
@@ -51,6 +127,21 @@
               name="hire"
               placeholder="Why should we hire you?"
             />
+          </div>
+        </div>
+        <div class="custom-select">
+        <div class="row">
+          <div class="col-25">
+            <label for="apply">What are you applying for?</label>
+            <select name="apply" id="hire" size="4" multiple>
+          </div>
+          <div class="col-75">
+            <option value="webdev">Web Development</option>
+            <option value="hr">HR</option>
+            <option value="marketing">Marketing</option>
+            <option value="finance">Finance</option>
+          </div>
+        </select>
           </div>
         </div>
         <div class="row">
