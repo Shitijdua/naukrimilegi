@@ -34,7 +34,9 @@ body {
   background-color: whitesmoke;
 }
 
-input[type="text"] {
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
   width: 100%;
   padding: 12px;
   border: 1px solid black;
@@ -111,8 +113,19 @@ footer {
   color: darkgreen;
 }
 
-img {
+.naukri {
+  margin-bottom: 10px;
   border: 2px solid black;
+}
+
+select {
+  width: 1200px;
+  cursor: pointer;
+}
+
+select option:hover {
+  background-color: black;
+  color: white;
 }
 
 @media screen and (max-width: 600px) {
@@ -130,5 +143,36 @@ img {
     margin-top: 10px;
     margin-bottom: 10px;
     text-align: center;
+  }
+
+  select {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  select {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  select {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  select {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  select {
+    width: 150px;
+  }
+  input[type="file"] {
+    font-size: 10px;
   }
 }
